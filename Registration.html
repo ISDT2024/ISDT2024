@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ISDT 2024</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./ISDT 2024_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./ISDT 2024_files/main.css">
+	<script src="./ISDT 2024_files/jquery.min.js"></script>
+	<script src="./ISDT 2024_files/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <div id="head"></div>
+    <script type="text/javascript">
+        $('#head').load('./components/header.html')
+    </script>
+	<hr style="margin-bottom:0;">
+    <div class="mytab container">
+        <ul class="tab-list">
+            <li class="tab-item"><a href="./index.html" class="tab-link">Home</a></li>
+            <li class="tab-item"><a href="./InvitedSpeakers.html" class="tab-link">Invited Speakers</a></li>
+            <li class="tab-item"><a href="./CallForPapers.html" class="tab-link">Call for Papers</a></li>
+            <li class="tab-item"><a href="./Committee.html" class="tab-link" target="">Committee</a></li>
+			<li class="tab-item"><a href="./AcceptedPapers.html" class="tab-link">Accepted Papers</a></li>     
+            <li class="tab-item"><a href="./Program.html" class="tab-link">Program</a></li>
+            <li class="tab-item"><a href="./AboutQufu.html" class="tab-link">About Qufu</a></li>
+			<li class="tab-item tab-chose">Registration</li>  
+        </ul>
+    </div>
+    
+    <!-- 轮播图 -->
+    <div id="imgs"></div>
+    <script type="text/javascript">
+        $('#imgs').load('./components/banner.html')
+    </script>
+
+	<div class="content container">
+        <div class="main-content">
+            <p><h3>Registration</h3></P>
+            <div>                
+                The registration fee will be US$220 per normal participant, US$110 for a spouse and US$160 for a student participant, covering all meals arranged by the organizers. The accommodation will be arranged in Inzone Garland Hotel. The cost for a single room is about US$60 per night.
+            </div>
+        </div>
+	</div>
+    <!--尾部-->
+    <div id="footer"></div>
+    <script type="text/javascript">
+        $('#footer').load('./components/footer.html')
+    </script>
+    <!--尾部-->
+</body>
+</html>

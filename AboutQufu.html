@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ISDT 2024</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./ISDT 2024_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./ISDT 2024_files/main.css">
+	<script src="./ISDT 2024_files/jquery.min.js"></script>
+	<script src="./ISDT 2024_files/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--头部展示开始-->
+    <div id="head"></div>
+    <script type="text/javascript">
+        $('#head').load('./components/header.html')
+    </script>
+    <!--头部展示 结束-->
+
+	<hr style="margin-bottom:0;">
+    <div class="mytab container">
+        <ul class="tab-list">
+            <li class="tab-item"><a href="./index.html" class="tab-link">Home</a></li>
+            <li class="tab-item"><a href="./InvitedSpeakers.html" class="tab-link">Invited Speakers</a></li>
+            <li class="tab-item"><a href="./CallForPapers.html" class="tab-link">Call for Papers</a></li>
+            <li class="tab-item"><a href="./Committee.html" class="tab-link" target="">Committee</a></li>
+			<li class="tab-item"><a href="./AcceptedPapers.html" class="tab-link">Accepted Papers</a></li>     
+            <li class="tab-item"><a href="./Program.html" class="tab-link">Program</a></li>
+			<li class="tab-item tab-chose">About Qufu</li>  
+            <li class="tab-item"><a href="./Registration.html" class="tab-link">Registration</a></li>
+        </ul>
+    </div>
+
+    <div id="imgs"></div>
+    <script type="text/javascript">
+        $('#imgs').load('./components/banner.html')
+    </script>
+
+
+	<div class="content container">
+		<div class="main-content">
+			<p><h3>About Qufu</h3></P>
+
+			<div>
+				Qufu, a famous tourist city in China, is away from Mount Tai by 80km to the south. 
+				It is the hometown of Confucius, a great thinker, educator, philosopher, and the founder of Confucianism; 
+				it has three Historic Sites: The Confucius Temple, the Confucius Mansion, and the Confucius Forest; 
+				it enjoys a worldwide fame as a traditional Chinese culture site; and it is known as the "Eastern Holy City".
+			</div>
+		</div>
+	</div>
+    <!--尾部开始-->
+    <div id="footer"></div>
+    <script type="text/javascript">
+        $('#footer').load('./components/footer.html')
+    </script>
+    <!--尾部结束-->
+</body>
+</html>
