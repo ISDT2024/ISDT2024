@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="./ISDT 2024_files/main.css">
     <script src="./ISDT 2024_files/jquery.min.js"></script>
     <script src="./ISDT 2024_files/bootstrap.min.js" charset="utf-8"></script>
+    <script src="./js/uvcount.js"></script>
     <style>
       td{width:300px;height:30px;}
       .jn{width: 150px; height: 200px;margin-left: 50px;}
@@ -711,7 +712,7 @@
     <style data-styled="active" data-styled-version="5.3.11"></style>
 </head>
 <div class="L-MembershipModalContainer"></div>
-<body data-liner-extension-version="7.14.9">
+<body data-liner-extension-version="7.14.9" onload="displayVisitCount()">
     <!--头部展示开始-->
     <div id="head"></div>
     <script type="text/javascript">
@@ -815,10 +816,12 @@
     </div>
     
     <br><br><br><br><br><br><br><br><br><br>
-    <!--尾部开始-->
-    <div id="footer"></div>
-    <script type="text/javascript">
-        $('#footer').load('./components/footer.html')
-    </script>
-    <!--尾部结束-->
+
+    <footer style="background-color: #f0f0f0; color: #333; padding: 20px; text-align: center; font-size: 14px;">
+        © 2024 ISDT 2024.
+        <br>
+        总访问量：<span id="totalVisits"></span>
+        今日访问量：<span id="dailyVisits"></span>
+    </footer>
+    </body>
 </html>
