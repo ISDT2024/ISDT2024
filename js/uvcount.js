@@ -28,8 +28,3 @@ function displayVisitCount() {
     // alert("总访问量:"+visitCount.total+"今日访问量:"+visitCount.daily)
 }
 
-
-// 页面加载完成后显示访问量
-// window.onload = function (){
-//     displayVisitCount();
-// }
