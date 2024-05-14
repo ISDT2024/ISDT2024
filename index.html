@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./ISDT 2024_files/main.css">
     <script src="./ISDT 2024_files/jquery.min.js"></script>
     <script src="./ISDT 2024_files/bootstrap.min.js" charset="utf-8"></script>
-    <script async src="//webviso.yestool.org/js/index.min.js"></script>
+    <!--<script async src="//webviso.yestool.org/js/index.min.js"></script>-->
     <!--<script src="./js/uvcount.js"></script>-->
     <style>
       td{width:300px;height:30px;}
@@ -817,14 +817,20 @@
     </div>
     
     <br><br><br><br><br><br><br><br><br><br>
-    <footer style="background-color: #f0f0f0; color: #333; padding: 20px; text-align: center; font-size: 14px;">
-        © 2024 ISDT 2024.
-        <br>
-        <!--总访问量：<span id="totalVisits"></span>-->
-        <!--今日访问量：<span id="dailyVisits"></span>-->
-        PV: <span id="page_pv"></span>
-        UV: <span id="page_uv"></span>
-    </span>
-    </footer>
+    <!--<footer style="background-color: #f0f0f0; color: #333; padding: 20px; text-align: center; font-size: 14px;">-->
+    <!--    © 2024 ISDT 2024.-->
+    <!--    <br>-->
+    <!--    &lt;!&ndash;总访问量：<span id="totalVisits"></span>&ndash;&gt;-->
+    <!--    &lt;!&ndash;今日访问量：<span id="dailyVisits"></span>&ndash;&gt;-->
+    <!--    PV: <span id="page_pv"></span>-->
+    <!--    UV: <span id="page_uv"></span>-->
+    <!--</span>-->
+    <!--</footer>-->
+    <!--尾部开始-->
+    <div id="footer"></div>
+    <script type="text/javascript">
+        $('#footer').load('./components/footer.html')
+    </script>
+    <!--尾部结束-->
 
 </html>
